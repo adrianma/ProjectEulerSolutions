@@ -1,9 +1,9 @@
 disp('Adrian Martinez Gomez');
 disp('Problem 6 Project Euler');
 
-nPowers = 100;
+sNPowers = 100;
 
-nSum_of_powers = sum((1:100).^2);
-nPower_of_sum = sum(1:100)^2;
-nResult = nPower_of_sum - nSum_of_powers;
-fprintf('The result is: %d \n',nResult);
+sSumOfPowers = sum((1:sNPowers).^2);
+sPowerOfSums = sum(1:sNPowers)^2;
+sResult = sPowerOfSums - sSumOfPowers;
+fprintf('The result is: %d \n',sResult);
